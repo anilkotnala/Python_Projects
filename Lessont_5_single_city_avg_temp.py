@@ -13,6 +13,7 @@ df['year'] = df['Date'].dt.year
 df.info()
 
 new_data = df.set_index('Date')
+print(new_data)
 
 #First_dataset
 First_dataset_2014 = new_data["1-1-2014":"31-5-2014"]
